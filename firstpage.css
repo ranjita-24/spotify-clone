@@ -1,0 +1,102 @@
+#full{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    border: 1px solid red;
+    height:80px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+}
+#icon,#search-bar,#log-in{
+    border: 1px solid red;
+    height: 90%; 
+}
+#icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon1{
+     border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRslcO84eWfXP_4Ucd4Yfz6B8uqJmHaTo0iTw&s');
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+#home-icon{
+     border: 1px solid red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+}
+#search-bar{
+     width: 580px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#search{
+     border: 1px solid red;
+     border-radius: 40px;
+     height: 80%;
+    width: 100%;
+    display: flex;
+      justify-content:space-between;
+      align-items: center;
+      
+}
+#search-icon{
+      border: 1px solid red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     left: 13px;
+      height: 60%;
+      width: 40px;
+    background-color:black; 
+}
+#ctrl{
+      border: 1px solid red;
+   height: 80%;
+    width: 80px; 
+    border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.c
+{
+     border: 1px solid red;
+     height: 70%;
+    width: 30px;
+    text-align: center; 
+}
+#bowse{
+      border: 1px solid red;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     right: 15px;
+    height: 80%;
+    width: 40px;
+    background-color:black; 
+}
+#log-in{
+      width: 790px;
+}
+h4{
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
