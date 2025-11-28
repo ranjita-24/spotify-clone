@@ -9,6 +9,7 @@ nav{
     display: flex; 
     justify-content: space-between;
     align-items: center;   
+    background-color: black;
 }
 #icon,#search-bar,#log-in{
     border: 1px solid red;
@@ -39,7 +40,7 @@ nav{
     background-color: bisque;
 }
 #search-bar{
-     width: 580px;
+     width: 500px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,7 +55,7 @@ nav{
       align-items: center;
       
 }
-#search-icon{
+#search-container{
       border: 1px solid red;
      display: flex;
      justify-content: center;
@@ -65,38 +66,112 @@ nav{
       width: 40px;
     background-color:black; 
 }
+#i{
+    position: relative;
+    left: 100px;
+}
+
+#search-input{
+    position: relative;
+    left: 114px;
+    border: none;
+    font-size: 17px;
+    /* outline: none; */
+    color: rgb(255, 255, 255);
+    background-color: black;
+      /* background: transparent; */
+  
+}
+#search-container:hover {
+  background-color: #2a2a2a;
+  cursor: text;
+}
 #ctrl{
       border: 1px solid red;
    height: 80%;
     width: 80px; 
     border-radius: 10px;
+    position: relative;
+    left: 85px;
      display: flex;
      justify-content: center;
      align-items: center;
 }
 .c
 {
-     border: 1px solid red;
-     height: 70%;
+    border: 1px solid red;
+    height: 70%;
     width: 30px;
+   
     text-align: center; 
 }
 #bowse{
-      border: 1px solid red;
-      display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     right: 15px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 15px;
     height: 80%;
     width: 40px;
     background-color:black; 
 }
-#log-in{
-      width: 790px;
-}
+
 h4{
     position: relative;
     left: 0px;
     right: 0px;
+}
+#log-in{
+      width: 840px;
+      display: flex;
+      justify-content:right;
+      align-items: center;
+}
+#links{
+ border: 1px solid red;
+ height: inherit;
+ width: 70%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.v-line {
+  width: 2px;       
+  height: 30px;    
+  background-color: rgb(128, 22, 22);
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(178, 165, 165);
+}
+a:hover{
+    color: white;
+    transform:scale(1.07) ;
+}
+/* #log{
+    border: 1px solid red;
+    height: 70%;
+    width: 18%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+   border-radius: 30px;
+   background-color: white;
+   
+} */
+#btn{
+color: rgb(18, 4, 4);
+border: none;
+font-size: 20px;
+padding: 10px  15px 10px;
+background-color: rgb(241, 233, 233);
+ border-radius: 25px;
+  cursor: pointer;
+}
+#btn:hover{
+    transform: scale(1.07);
 }
